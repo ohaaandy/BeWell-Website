@@ -1,0 +1,12 @@
+ # Normalize text files to avoid line-ending issues
+* text=auto
+
+# Treat images and binary files correctly
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
+
+# Ensure shell scripts remain executable
+*.sh text eol=lf

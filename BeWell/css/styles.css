@@ -10834,6 +10834,8 @@ textarea.form-control-lg {
 .masthead {
   background: url('../assets/landing.jpg') center/cover no-repeat; /* Background image */
   height: 100vh; /* Fullscreen */
+  background-size: cover;
+  position: relative;
   display: flex;
   align-items: center; /* Centers content vertically */
   text-align: left; /* Aligns text to the left */
@@ -10854,4 +10856,34 @@ textarea.form-control-lg {
   height: 100%;
   background: rgba(0, 0, 0, 0.4); /* Dark overlay for better text readability */
   z-index: 1;
+}
+
+.about-us {
+  position: relative;
+  background: url('../assets/sda.png') center/cover no-repeat;
+  height: 600px; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.about-us .content-overlay {
+  padding: 20px 40px;
+  border-radius: 10px;
+  color: white;
+}
+
+.about-details {
+  background: #204EB1;
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+.about-details ul {
+  list-style: none;
+  padding: 0;
 }

@@ -10831,6 +10831,7 @@ textarea.form-control-lg {
   background-position: center;
   background-size: cover;
 }
+
 .masthead {
   background: url('../assets/landing.jpg') center/cover no-repeat; /* Background image */
   height: 100vh; /* Fullscreen */
@@ -10886,4 +10887,60 @@ textarea.form-control-lg {
 .about-details ul {
   list-style: none;
   padding: 0;
+}
+
+.bookapt {
+  position: relative;
+  background: url('../assets/taft.png') center/cover no-repeat;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.bookapt-content {
+  max-width: 500px;
+  width: 100%;
+  text-align: left;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.bookapt-content h1 {
+  color: #204EB1;
+}
+
+.bookapt-content label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.bookapt-content input, .bookapt-content select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.bookapt-content button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #204EB1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bookapt-content button:hover {
+  background-color: #173b87;
 }

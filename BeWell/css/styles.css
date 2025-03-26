@@ -10860,33 +10860,53 @@ textarea.form-control-lg {
 }
 
 .about-us {
-  position: relative;
   background: url('../assets/sda.png') center/cover no-repeat;
-  height: 600px; /* Adjust height as needed */
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   text-align: center;
+}
+
+.about-us .container {
+  background: white;
   padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
 }
 
-.about-us .content-overlay {
-  padding: 20px 40px;
-  border-radius: 10px;
-  color: white;
+.about-us h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.about-details {
-  background: #204EB1;
-  padding: 40px;
-  text-align: center;
-  color: white;
+.about-us p {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
 }
 
-.about-details ul {
+/* Contact Section */
+.contact {
+  margin-top: 20px;
+}
+
+.contact h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.contact ul {
   list-style: none;
   padding: 0;
+  font-size: 1.1rem;
+}
+
+.contact li {
+  margin: 5px 0;
 }
 
 .bookapt {
@@ -10898,7 +10918,7 @@ textarea.form-control-lg {
   align-items: center;
   color: white;
   text-align: center;
-  padding: 40px;
+  min-height: 100vh;
 }
 
 .bookapt-content {
@@ -10949,19 +10969,25 @@ textarea.form-control-lg {
   background: url('../assets/sda.png') no-repeat center center;
   background-size: cover;
   text-align: center;
-  padding: 60px 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* White rounded container to hold everything */
 .services-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: white;
   border-radius: 20px;
-  padding: 40px;
-  width: 80%;
+  padding: 70px;
+  width: 90%;
   max-width: 1000px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  margin: 0 auto; /* Centering */
+  margin: 0 auto; /* Ensures it is centered */
 }
 
 /* Title inside the box */
@@ -10983,8 +11009,9 @@ textarea.form-control-lg {
 .services-container {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap; /* Prevents wrapping */
 }
 
 /* Individual service card */
@@ -10992,6 +11019,7 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   text-align: center;
   background: #204EB1;
   padding: 20px;

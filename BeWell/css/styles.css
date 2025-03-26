@@ -11047,3 +11047,59 @@ textarea.form-control-lg {
   font-weight: 600;
   font-size: 14px;
 }
+
+.reqdoc {
+  position: relative;
+  background: url('../assets/taft.png') center/cover no-repeat;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.reqdoc-content {
+  max-width: 500px;
+  width: 100%;
+  text-align: left;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.reqdoc-content h1 {
+  color: #204EB1;
+}
+
+.reqdoc-content label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.reqdoc-content input, .reqdoc-content select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reqdoc-content button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #204EB1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reqdoc-content button:hover {
+  background-color: #173b87;
+}

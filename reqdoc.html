@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeWell</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="BeWell/assets/white_bewell_logo.png" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="BeWell/css/styles.css" rel="stylesheet" />
+    </style>
+</head>
+
+<body>
+
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center text-dark" href="index.html">
+                <img src="BeWell/assets/dark_bewell_logo.png" alt="BeWell-Logo" width="40" height="40" class="me-2"
+                    BeWell>
+                <a><img src="BeWell/assets/bewell_Logo.png" width="60"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active text-dark" aria-current="page"
+                                href="index.html">Home</a></li>
+                        </h6>
+                        <li class="nav-item"><a class="nav-link text-dark" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="aboutus.html">About Us</a></li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+    <section class="reqdoc">
+        <section class="reqdoc-content">
+            <div class="reqdoc-details">
+                <h1>Request Documents</h1>
+                <div class="progress">
+                    <span class="active">Student Information</span> > <span>Confirmation of Document Details</span> > <span>Done</span>
+                </div>
+                <form>
+                    <label for="campus">Campus</label>
+                    <select id="campus" name="campus">
+                        <option value="" disabled selected>Select Campus</option>
+                        <option value="taft">Taft</option>
+                        <option value="design-arts">Design + Arts</option>
+                        <option value="atrium">Atrium</option>
+                        <option value="akic">Angelo King International Center (AKIC)</option>
+                    </select>
+    
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+                    <label for="id">ID Number</label>
+                    <input type="text" id="id" name="id" placeholder="Enter your ID Number" required>
+    
+                    <label for="email">School Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your school email" required>
+    
+                    <label for="document">Select Document</label>
+                    <select id="document" name="document">
+                        <option value="" disabled selected>Select Document Type</option>
+                        <!--<option value=""></option>-->
+                    </select>
+    
+                    <label for="remarks">Additional Remarks (Optional)</label>
+                    <input type="text" id="remarks" name="remarks" placeholder="Enter any additional remarks">
+    
+                    <button type="submit">Next</button>
+                </form>
+            </div>
+        </section>
+    </section>
+    
+
+    <!-- Footer-->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="BeWell/assets/dark_bewell_logo.png" alt="BeWell-Logo-dark" width="40"> <img
+                        src="BeWell/assets/bewell_Logo.png" width="50">
+                    <p class="mt-2 text-dark fw-bold">BeWell</p>
+                    <p class="text-secondary-dark"> 2025 | All Rights Reserved</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h6 class="fw-bold text-primary-dark">GET IN TOUCH</h6>
+                    <p class="text-secondary-dark">
+                        De La Salle - College of St. Benilde <br>
+                        2544 Taft Avenue, Malate <br>
+                        Manila, Philippines 1004 <br>
+                        <a href="mailto:bewell@benilde.edu.ph" class="text-primary-dark text-decoration-none">
+                            bewell@benilde.edu.ph
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h6 class="fw-bold text-primary-dark">NAVIGATION</h6>
+                    <div class="d-flex flex-column">
+                        <a href="index.html" class="text-dark text-decoration-none">Home</a>
+                        <a href="services.html" class="text-dark text-decoration-none">Services</a>
+                        <a href="aboutus.html" class="text-dark text-decoration-none">About Us</a>
+                        <a href="bookapt.html" class="text-dark text-decoration-none">Book Appointment</a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    
+</body>
+
+</html>

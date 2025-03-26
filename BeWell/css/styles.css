@@ -10946,64 +10946,76 @@ textarea.form-control-lg {
 }
 
 .services {
-  position: relative;
-  background: url('../assets/sda.png') center/cover no-repeat;
-  height: 620px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+  background: url('../assets/sda.png') no-repeat center center;
+  background-size: cover;
   text-align: center;
+  padding: 60px 20px;
+}
+
+/* White rounded container to hold everything */
+.services-wrapper {
+  background: white;
+  border-radius: 20px;
   padding: 40px;
-  color: white;
-}
-
-.services .content-overlay {
-  padding: 20px 40px;
-  border: 10px;
-  color: white;
-}
-
-.services-section {
-  background-color: #204EB1;
-  color: white;
+  width: 80%;
+  max-width: 1000px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  padding: 50px 20px;
+  margin: 0 auto; /* Centering */
 }
 
-.services-section h2 {
-  font-size: 2.5rem;
+/* Title inside the box */
+.services-wrapper h1 {
+  font-size: 2rem;
   font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
 }
 
-.services-section p {
+/* Description */
+.services-wrapper p {
+  color: #333;
   font-size: 1rem;
   margin-bottom: 30px;
 }
 
+/* Services container */
 .services-container {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
+/* Individual service card */
 .service-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 150px;
+  background: #204EB1;
+  padding: 20px;
+  border-radius: 15px;
+  width: 180px;
+  height: 180px;
+  transition: transform 0.3s ease-in-out;
 }
 
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+/* Icons inside the service cards */
 .service-card img {
-  width: 60px; /* Adjust as needed */
+  width: 50px;
   height: auto;
   margin-bottom: 10px;
 }
 
+/* Links inside the cards */
 .service-card a {
   color: white;
   text-decoration: none;
   font-weight: 600;
+  font-size: 14px;
 }
